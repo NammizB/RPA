@@ -23,4 +23,4 @@ The runner resolves and validates every source/destination path under this proje
 
 ## Verified test results
 
-Direct runner and UiPath Robot PASS using package version 1.0.1. Six supported files were moved, one unsupported Markdown file was skipped, one duplicate was renamed safely, six organized files were archived, and the ZIP entry count matched the organized file count. The root-boundary check passed.
+Direct runner and UiPath Robot PASS using package version 1.0.2. Six supported files were moved, one unsupported Markdown file was skipped, one duplicate was renamed safely, six organized files were archived, and the ZIP entry count matched the organized file count. The runner resets only its own generated output area so repeat runs remain deterministic. The root-boundary check passed.

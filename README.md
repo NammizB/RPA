@@ -40,4 +40,4 @@ Robot execution was completed locally on 2026-11-11 using UiPath Robot 26.0.180.
 | Word Certificate Generator | Yes | 1.0.0 | PASS | 4 personalized DOCX files, verification JSON | CSV-driven placeholder replacement | PDF export unavailable without converter |
 | PowerPoint Report Generator | Yes | 1.0.0 | PASS | 2-slide PPTX with native table, verification JSON | CSV-driven slide/table generation | PDF export unavailable without converter |
 | Email Classification | Yes | 1.0.0 | PASS | CSV report, 4 drafts, copied attachment, summary | 4 local `.eml` fixtures and keyword rules | No live mailbox by design |
-| File Organizer Backup | Yes | 1.0.1 | PASS | 6 organized files, movement log, verified ZIP, summary | Extension categorization and duplicate handling | Unsupported Markdown fixture is intentionally skipped |
+| File Organizer Backup | Yes | 1.0.2 | PASS | 6 organized files, movement log, verified ZIP, summary | Extension categorization and duplicate handling | Unsupported Markdown fixture is intentionally skipped |
