@@ -28,11 +28,11 @@ Seven independent UiPath Studio projects for portable, local-only office and fil
 3. Run `Main.xaml` in Studio or execute it with the local UiPath Robot.
 4. Review the project README and its `outputs` folder.
 
-The automation projects use local-only fixtures and processing. This portfolio is published in the `NammizB/RPA` GitHub repository.
+The automation projects use local-only fixtures and processing.
 
 ## Verification snapshot
 
-Robot execution was completed locally on 2026-11-11 using UiPath Robot 26.0.180.0. Packages were published locally and this portfolio was pushed to `NammizB/RPA`. See each project README for verified output details.
+Robot execution was completed locally using UiPath Robot 26.0.180.0. Packages were published locally and each project was verified against its generated outputs. See each project README for verified output details.
 
 ## Final verification
 
@@ -43,3 +43,5 @@ Robot execution was completed locally on 2026-11-11 using UiPath Robot 26.0.180.
 | PowerPoint Report Generator | Yes | 1.0.0 | PASS | 2-slide PPTX with native table, verification JSON | CSV-driven slide/table generation | PDF export unavailable without converter |
 | Email Classification | Yes | 1.0.0 | PASS | CSV report, 4 drafts, copied attachment, summary | 4 local `.eml` fixtures and keyword rules | No live mailbox by design |
 | File Organizer Backup | Yes | 1.0.2 | PASS | 6 organized files, movement log, verified ZIP, summary | Extension categorization and duplicate handling | Unsupported Markdown fixture is intentionally skipped |
+| PDF Invoice Processing | Yes | 1.0.1 | PASS | Invoice summary, overdue exception list, JSON summary | Four local invoice fixtures | No payment service is connected |
+| Data Validation and Reporting | Yes | 1.0.1 | PASS | Valid CSV, invalid CSV, text summary | Five CSV records and three validation rules | No external data source is connected |
