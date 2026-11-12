@@ -14,7 +14,7 @@ Five independent UiPath Studio projects for portable, local-only office and file
 
 ## Design
 
-- No real email account, external service, GitHub account, or network endpoint is used.
+- No real email account, external service, or network endpoint is used.
 - No Office Interop is required. XLSX, DOCX, and PPTX fixtures are Open XML ZIP packages generated and processed locally.
 - `Main.xaml` is the UiPath entry point. It invokes the project-local `Run.ps1` through a UiPath `Invoke Code` activity and propagates non-zero failures.
 - All inputs and outputs are relative to the project folder. File Organizer operations are confined to its own project directory.
@@ -26,11 +26,11 @@ Five independent UiPath Studio projects for portable, local-only office and file
 3. Run `Main.xaml` in Studio or execute it with the local UiPath Robot.
 4. Review the project README and its `outputs` folder.
 
-The repository is intentionally local-only. Nothing is connected to or pushed to GitHub.
+The automation projects use local-only fixtures and processing. This portfolio is published in the `NammizB/RPA` GitHub repository.
 
 ## Verification snapshot
 
-Robot execution was completed locally on 2026-11-11 using UiPath Robot 26.0.180.0. Packages were published to local `.nupkg` files only; nothing was pushed to GitHub. See each project README for verified output details.
+Robot execution was completed locally on 2026-11-11 using UiPath Robot 26.0.180.0. Packages were published locally and this portfolio was pushed to `NammizB/RPA`. See each project README for verified output details.
 
 ## Final verification
 
