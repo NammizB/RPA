@@ -2,7 +2,7 @@
 
 ## Overview
 
-Organizes sample files entirely inside this project folder. It recognizes PDF, DOCX, XLSX, PNG, JPG, and TXT, moves supported files into category folders, safely renames collisions, logs each decision, creates a ZIP backup, and verifies the archive count.
+Organizes sample files entirely inside this project folder. It recognizes PDF, DOCX, XLSX, PNG, JPG, and TXT, copies supported files into category folders while preserving the inputs for repeat runs, safely renames collisions, logs each decision, creates a ZIP backup, and verifies the archive count.
 
 ## Technologies and activities
 
@@ -23,4 +23,4 @@ The runner resolves and validates every source/destination path under this proje
 
 ## Verified test results
 
-Direct runner and UiPath Robot PASS using package version 1.0.2. Six supported files were moved, one unsupported Markdown file was skipped, one duplicate was renamed safely, six organized files were archived, and the ZIP entry count matched the organized file count. The runner resets only its own generated output area so repeat runs remain deterministic. The root-boundary check passed.
+Direct runner and UiPath Robot PASS using package version 1.0.2. Six supported files were copied, one unsupported Markdown file was skipped, one duplicate was renamed safely, six organized files were archived, and the ZIP entry count matched the organized file count. The runner resets only its own generated output area and preserves the input fixtures, so repeat runs remain deterministic. The root-boundary check passed.
