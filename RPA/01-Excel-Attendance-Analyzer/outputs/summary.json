@@ -1,0 +1,16 @@
+﻿[
+    {
+        "Dataset":  "attendance_dataset_1.xlsx",
+        "TotalStudents":  15,
+        "Below75":  6,
+        "Report":  "reports\\attendance_dataset_1_report.xlsx",
+        "LowAttendanceCsv":  "low-attendance\\attendance_dataset_1_low.csv"
+    },
+    {
+        "Dataset":  "attendance_dataset_2.xlsx",
+        "TotalStudents":  8,
+        "Below75":  4,
+        "Report":  "reports\\attendance_dataset_2_report.xlsx",
+        "LowAttendanceCsv":  "low-attendance\\attendance_dataset_2_low.csv"
+    }
+]

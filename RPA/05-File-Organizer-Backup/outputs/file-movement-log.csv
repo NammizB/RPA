@@ -1,0 +1,8 @@
+"Source","Destination","Category","Status"
+"input\source-a\attendance.pdf","outputs\organized\PDF\attendance.pdf","PDF","Moved"
+"input\source-a\notes.txt","outputs\organized\Text\notes.txt","Text","Moved"
+"input\source-b\attendance.pdf","outputs\organized\PDF\attendance__duplicate1.pdf","PDF","Moved with duplicate-safe name"
+"input\source-b\photo.png","outputs\organized\Images\photo.png","Images","Moved"
+"input\source-c\brief.docx","outputs\organized\DOCX\brief.docx","DOCX","Moved"
+"input\source-c\budget.xlsx","outputs\organized\XLSX\budget.xlsx","XLSX","Moved"
+"input\source-c\readme.md","","Skipped","Unsupported extension"

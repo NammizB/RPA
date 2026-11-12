@@ -1,0 +1,6 @@
+﻿To: student@example.test
+Subject: Re: Urgent request for course access
+
+Draft only - no message was sent.
+
+Thank you for contacting the local automation desk. Your message was classified as Urgent. A team member can review it and respond through the approved channel.

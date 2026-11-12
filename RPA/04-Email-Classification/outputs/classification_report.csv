@@ -1,0 +1,5 @@
+"File","Sender","Subject","Category","Attachment","AttachmentStatus","ReplyDraft","Sent"
+"email_001.eml","finance@example.test","Invoice 2026-11 requires review","Invoice","invoice_001.pdf","Copied","email_001_reply_draft.txt","False"
+"email_002.eml","student@example.test","Urgent request for course access","Urgent","","None","email_002_reply_draft.txt","False"
+"email_003.eml","customer@example.test","Complaint about delayed response","Complaint","","None","email_003_reply_draft.txt","False"
+"email_004.eml","colleague@example.test","Request for attendance report","Request","","None","email_004_reply_draft.txt","False"

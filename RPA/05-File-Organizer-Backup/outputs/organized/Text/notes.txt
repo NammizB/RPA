@@ -1,0 +1,1 @@
+Sample TXT fixture for the local file organizer.

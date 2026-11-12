@@ -1,0 +1,14 @@
+﻿{
+    "TotalMessages":  4,
+    "CategoryCounts":  {
+                           "Complaint":  1,
+                           "Request":  1,
+                           "Invoice":  1,
+                           "Urgent":  1
+                       },
+    "AttachmentsCopied":  1,
+    "ReplyDrafts":  4,
+    "MessagesSent":  0,
+    "MessagesDeleted":  0,
+    "ExternalConnections":  0
+}

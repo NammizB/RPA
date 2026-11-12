@@ -1,0 +1,6 @@
+{
+  "Name": "PowerPointReportGenerator",
+  "ProjectType": "Process",
+  "Description": "Generate a dynamic PowerPoint report with a native Open XML table.",
+  "MainFile": "Main.xaml"
+}

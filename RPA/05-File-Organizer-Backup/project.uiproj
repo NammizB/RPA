@@ -1,0 +1,6 @@
+{
+  "Name": "SmartFileOrganizerBackup",
+  "ProjectType": "Process",
+  "Description": "Organize local sample files, handle duplicates, and create a verified ZIP backup.",
+  "MainFile": "Main.xaml"
+}

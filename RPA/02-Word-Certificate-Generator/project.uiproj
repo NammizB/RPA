@@ -1,0 +1,6 @@
+{
+  "Name": "WordCertificateGenerator",
+  "ProjectType": "Process",
+  "Description": "Generate personalized DOCX certificates from CSV data.",
+  "MainFile": "Main.xaml"
+}

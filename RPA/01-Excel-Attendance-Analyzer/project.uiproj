@@ -1,0 +1,6 @@
+{
+  "Name": "ExcelAttendanceAnalyzer",
+  "ProjectType": "Process",
+  "Description": "Analyze XLSX attendance dynamically and create sorted reports.",
+  "MainFile": "Main.xaml"
+}

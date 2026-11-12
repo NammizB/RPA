@@ -1,0 +1,14 @@
+# UiPath generated files
+.local/
+.screenshots/
+**/bin/
+**/obj/
+**/.screenshots/
+
+# Runtime logs and transient files
+**/outputs/**/*.tmp
+**/outputs/**/*.log
+**/outputs/**/*.lock
+
+# Keep empty output folders in the repository
+!**/outputs/.gitkeep

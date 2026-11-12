@@ -1,0 +1,5 @@
+"StudentId","Name","TotalClasses","AttendedClasses","AttendancePercentage","Status"
+"STU108","Yuvan Ali","30","16","53.33","Low Attendance"
+"STU105","Navya Pillai","30","18","60","Low Attendance"
+"STU103","Avni Roy","30","20","66.67","Low Attendance"
+"STU102","Dev Patel","30","22","73.33","Low Attendance"

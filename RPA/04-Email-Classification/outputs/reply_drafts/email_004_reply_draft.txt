@@ -1,0 +1,6 @@
+﻿To: colleague@example.test
+Subject: Re: Request for attendance report
+
+Draft only - no message was sent.
+
+Thank you for contacting the local automation desk. Your message was classified as Request. A team member can review it and respond through the approved channel.

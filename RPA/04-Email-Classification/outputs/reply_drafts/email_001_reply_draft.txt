@@ -1,0 +1,6 @@
+﻿To: finance@example.test
+Subject: Re: Invoice 2026-11 requires review
+
+Draft only - no message was sent.
+
+Thank you for contacting the local automation desk. Your message was classified as Invoice. A team member can review it and respond through the approved channel.

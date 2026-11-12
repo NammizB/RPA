@@ -1,0 +1,6 @@
+{
+  "Name": "LocalEmailClassification",
+  "ProjectType": "Process",
+  "Description": "Classify local email fixtures and create reply drafts without sending.",
+  "MainFile": "Main.xaml"
+}
