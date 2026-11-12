@@ -1,5 +1,7 @@
 <Activity x:Class="Main" VisualBasic.Settings="{x:Null}" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <Sequence DisplayName="PowerPoint Report Generator">
+    <Sequence.Variables><Variable x:TypeArguments="x:String" Name="inputPreview" /></Sequence.Variables>
+    <ui:ReadTextFile DisplayName="Read performance CSV" FileName="[System.IO.Path.Combine(Environment.CurrentDirectory, &quot;input&quot;, &quot;student_performance.csv&quot;)]" Content="[inputPreview]" />
     <WriteLine Text="Starting PowerPoint Report Generator" />
     <ui:InvokeCode DisplayName="Generate and verify PPTX report" Code="Dim psi As New System.Diagnostics.ProcessStartInfo(&quot;powershell.exe&quot;) : psi.UseShellExecute = False : psi.WorkingDirectory = System.Environment.CurrentDirectory : psi.Arguments = System.String.Concat(&quot;-NoLogo -NoProfile -ExecutionPolicy Bypass -File &quot;, System.Convert.ToChar(34), System.IO.Path.Combine(System.Environment.CurrentDirectory, &quot;Run.ps1&quot;), System.Convert.ToChar(34)) : Dim p As System.Diagnostics.Process = System.Diagnostics.Process.Start(psi) : p.WaitForExit() : If p.ExitCode &lt;&gt; 0 Then Throw New System.Exception(&quot;Run.ps1 failed with exit code &quot; + p.ExitCode.ToString())" />
     <WriteLine Text="PowerPoint Report Generator completed" />

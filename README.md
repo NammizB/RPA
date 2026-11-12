@@ -11,8 +11,8 @@ Seven independent UiPath Studio projects for portable, local-only office and fil
 | [03 PowerPoint Report Generator](RPA/03-PowerPoint-Report-Generator/README.md) | Fill PPTX template, update slides, and add a report table | Robot PASS |
 | [04 Email Classification](RPA/04-Email-Classification/README.md) | Classify local `.eml` fixtures, copy safe attachments, and draft replies | Robot PASS |
 | [05 File Organizer Backup](RPA/05-File-Organizer-Backup/README.md) | Categorize files, handle duplicates, log movements, and create ZIP backup | Robot PASS |
-| [06 PDF Invoice Processing](RPA/06-PDF-Invoice-Processing/README.md) | Process local invoice fixtures and report payment exceptions | Robot PASS — 1.0.1 |
-| [07 Data Validation and Reporting](RPA/07-Data-Validation-Reporting/README.md) | Validate CSV employee records and separate valid/invalid rows | Robot PASS — 1.0.1 |
+| [06 PDF Invoice Processing](RPA/06-PDF-Invoice-Processing/README.md) | Process local invoice fixtures and report payment exceptions | Robot PASS — 1.0.2 |
+| [07 Data Validation and Reporting](RPA/07-Data-Validation-Reporting/README.md) | Validate CSV employee records and separate valid/invalid rows | Robot PASS — 1.0.2 |
 
 ## Design
 
@@ -30,6 +30,8 @@ Seven independent UiPath Studio projects for portable, local-only office and fil
 
 The automation projects use local-only fixtures and processing.
 
+The refreshed `Main.xaml` files now include a visible UiPath `Read Text File` input step before invoking each project’s local processing routine. The processing logic remains portable and is kept in the project-local runner scripts so the projects can be tested without Office or external services.
+
 ## Verification snapshot
 
 Robot execution was completed locally using UiPath Robot 26.0.180.0. Packages were published locally and each project was verified against its generated outputs. See each project README for verified output details.
@@ -38,10 +40,10 @@ Robot execution was completed locally using UiPath Robot 26.0.180.0. Packages we
 
 | Project | Main.xaml | Package | Robot | Verified outputs | Dynamic processing | Remaining issues |
 |---|---|---|---|---|---|---|
-| Excel Attendance Analyzer | Yes | 1.0.1 | PASS | 2 XLSX reports, 2 low-attendance CSVs, summary | 15-row and 8-row XLSX datasets | None |
-| Word Certificate Generator | Yes | 1.0.0 | PASS | 4 personalized DOCX files, verification JSON | CSV-driven placeholder replacement | PDF export unavailable without converter |
-| PowerPoint Report Generator | Yes | 1.0.0 | PASS | 2-slide PPTX with native table, verification JSON | CSV-driven slide/table generation | PDF export unavailable without converter |
-| Email Classification | Yes | 1.0.0 | PASS | CSV report, 4 drafts, copied attachment, summary | 4 local `.eml` fixtures and keyword rules | No live mailbox by design |
-| File Organizer Backup | Yes | 1.0.2 | PASS | 6 organized files, movement log, verified ZIP, summary | Extension categorization and duplicate handling | Unsupported Markdown fixture is intentionally skipped |
-| PDF Invoice Processing | Yes | 1.0.1 | PASS | Invoice summary, overdue exception list, JSON summary | Four local invoice fixtures | No payment service is connected |
-| Data Validation and Reporting | Yes | 1.0.1 | PASS | Valid CSV, invalid CSV, text summary | Five CSV records and three validation rules | No external data source is connected |
+| Excel Attendance Analyzer | Yes | 1.0.5 | PASS | 2 XLSX reports, 2 low-attendance CSVs, summary | 15-row and 8-row XLSX datasets | None |
+| Word Certificate Generator | Yes | 1.0.2 | PASS | 4 personalized DOCX files, verification JSON | CSV-driven placeholder replacement | PDF export unavailable without converter |
+| PowerPoint Report Generator | Yes | 1.0.1 | PASS | 2-slide PPTX with native table, verification JSON | CSV-driven slide/table generation | PDF export unavailable without converter |
+| Email Classification | Yes | 1.0.1 | PASS | CSV report, 4 drafts, copied attachment, summary | 4 local `.eml` fixtures and keyword rules | No live mailbox by design |
+| File Organizer Backup | Yes | 1.0.3 | PASS | 6 organized files, movement log, verified ZIP, summary | Extension categorization and duplicate handling | Unsupported Markdown fixture is intentionally skipped |
+| PDF Invoice Processing | Yes | 1.0.2 | PASS | Invoice summary, overdue exception list, JSON summary | Four local invoice fixtures | No payment service is connected |
+| Data Validation and Reporting | Yes | 1.0.2 | PASS | Valid CSV, invalid CSV, text summary | Five CSV records and three validation rules | No external data source is connected |
