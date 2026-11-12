@@ -1,6 +1,8 @@
 # UiPath generated files
 .local/
 .screenshots/
+**/.project/
+**/.settings/
 **/bin/
 **/obj/
 **/.screenshots/
@@ -9,6 +11,8 @@
 **/outputs/**/*.tmp
 **/outputs/**/*.log
 **/outputs/**/*.lock
+**/outputs/*
+_packages/
 
 # Keep empty output folders in the repository
 !**/outputs/.gitkeep

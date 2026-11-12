@@ -1,6 +1,6 @@
 # RPA Office and Utility Automations
 
-Five independent UiPath Studio projects for portable, local-only office and file automation. Each project has its own `project.json`, `Main.xaml`, inputs, outputs, initialization fixture, runner script, and README.
+Seven independent UiPath Studio projects for portable, local-only office and file automation. Each project has its own `project.json`, `Main.xaml`, inputs, outputs, initialization fixture where needed, runner script, and README.
 
 ## Projects
 
@@ -11,6 +11,8 @@ Five independent UiPath Studio projects for portable, local-only office and file
 | [03 PowerPoint Report Generator](RPA/03-PowerPoint-Report-Generator/README.md) | Fill PPTX template, update slides, and add a report table | Robot PASS |
 | [04 Email Classification](RPA/04-Email-Classification/README.md) | Classify local `.eml` fixtures, copy safe attachments, and draft replies | Robot PASS |
 | [05 File Organizer Backup](RPA/05-File-Organizer-Backup/README.md) | Categorize files, handle duplicates, log movements, and create ZIP backup | Robot PASS |
+| [06 PDF Invoice Processing](RPA/06-PDF-Invoice-Processing/README.md) | Process local invoice fixtures and report payment exceptions | Robot PASS — 1.0.1 |
+| [07 Data Validation and Reporting](RPA/07-Data-Validation-Reporting/README.md) | Validate CSV employee records and separate valid/invalid rows | Robot PASS — 1.0.1 |
 
 ## Design
 

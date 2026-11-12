@@ -1,0 +1,6 @@
+{
+  "Name": "DataValidationReporting",
+  "ProjectType": "Process",
+  "Description": "Validate CSV records and produce valid, invalid, and summary reports.",
+  "MainFile": "Main.xaml"
+}

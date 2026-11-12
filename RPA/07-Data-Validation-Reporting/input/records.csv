@@ -1,0 +1,6 @@
+EmployeeId,Name,Email,Age
+EMP-001,Aarav Mehta,aarav@example.test,28
+EMP-002,Diya Shah,diya@example.test,34
+,Missing Id,missing@example.test,29
+EMP-004,Invalid Email,invalid-email,42
+EMP-005,Young Record,young@example.test,20

@@ -1,0 +1,5 @@
+InvoiceId,Vendor,Amount,DueDate,Paid,SourcePdf
+INV-1001,Northwind Supplies,1250.50,2026-11-20,False,invoice_1001.pdf
+INV-1002,Contoso Services,875.00,2026-10-15,False,invoice_1002.pdf
+INV-1003,Fabrikam Office,430.25,2026-11-30,True,invoice_1003.pdf
+INV-1004,Adventure Works,2100.00,2026-12-10,False,invoice_1004.pdf

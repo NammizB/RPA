@@ -1,0 +1,6 @@
+{
+  "Name": "PDFInvoiceProcessing",
+  "ProjectType": "Process",
+  "Description": "Process local invoice fixtures and produce a payment review report.",
+  "MainFile": "Main.xaml"
+}
